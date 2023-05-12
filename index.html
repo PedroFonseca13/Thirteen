@@ -9,7 +9,6 @@
 		/>
 
 		<!-- lib de animações AOS, Animate.css -->
-
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
 		<link
@@ -17,58 +16,37 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
 
-		<!-- Bootstrap CSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-
 		<!-- Link CSS -->
-		<link rel="stylesheet" href="./assets/css/exe-04.css" />
+		<link rel="stylesheet" href="./assets/css/hover-min.css" />
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
 
 		<!-- <script src="./script.js"></script> -->
 		<!-- AOS -->
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-		<title>Fuck Off</title>
+		<title>Thirteen</title>
 	</head>
 	<body>
 		<!-- Home Navigation -->
 		<header>
 			<div class="container">
-				<nav class="row navbar navbar-expand-sm pl-0 navbar-dark">
+				<nav class="">
 					<!-- logo -->
-					<div class="logo col-4">
-						<a class="navbar-brand" href="#">Fuck off!</a>
+					<a class="logo" href="#">Thirteen</a>
+					<!-- menu mobile -->
+					<div class="mobile-menu">
+						<div class="line-1"></div>
+						<div class="line-2"></div>
+						<div class="line-3"></div>
 					</div>
-					<!-- menu hamburger -->
-					<button
-						class="navbar-toggler menu-hamburger"
-						type="button"
-						data-toggle="collapse"
-						data-target="#nav-target"
-					>
-						<span class="navbar-toggler-icon menu-hamburger"></span>
-					</button>
-					<!-- navigation -->
-					<div
-						class="collapse navbar-collapse justify-content-end col-8 p-0"
-						id="nav-target"
-					>
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link" href="#">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#services">Services</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contact">Contact</a>
-							</li>
-						</ul>
-					</div>
+					<!-- Estrutura do menu -->
+					<ul class="nav-list">
+						<li><a class="nav-link" href="#">Home</a></li>
+						<li><a class="nav-link" href="#services">Services</a></li>
+						<li><a class="nav-link" href="#">Skills</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+					</ul>
 				</nav>
 			</div>
 		</header>
@@ -76,14 +54,18 @@
 		<main>
 			<!-- Home -->
 			<div id="home">
+				<!-- cover area -->
 				<div class="hero">
 					<div class="container h-100">
 						<div class="cover h-100">
 							<div class="row h-100">
 								<h2
-									class="col-sm-5 align-self-center animate__animated animate__fadeInLeft"
+									class="col-sm-5 align-self-center animate__animated animate__fadeInDown"
 								>
-									Mother Fucker
+									<span
+										class="type animate__animated animate__bounceInLeft animate__delay-1s"
+										>&gt; Thirteen</span
+									>
 								</h2>
 								<p
 									class="col-sm-7 align-self-end animate__animated animate__fadeInUp"
@@ -96,21 +78,22 @@
 						</div>
 					</div>
 				</div>
+				<!-- about -->
 				<div class="home-about">
 					<div class="container home">
-						<h1 class="home-title">Hello, mother fucker!</h1>
+						<h1 class="home-title">Hello, nice to meet you!</h1>
 						<div class="row">
-							<div class="col-sm-12 mb-5">
+							<div class="col-sm-12">
 								<div class="row">
 									<div class="col-sm-6">
 										<img
-											src="./assets/images/home-image2.jpg"
+											src="./assets/img/home-image2.jpg"
 											alt="foto ilustrativa"
 											class="home-about-img"
 											data-aos="fade-down-right"
 										/>
 									</div>
-									<div class="col-sm-6 align-self-center">
+									<div class="col-sm-6 align-self-center mt-3">
 										<p class="">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											Veritatis laudantium sint, aspernatur explicabo
@@ -123,7 +106,7 @@
 							</div>
 							<div class="col-sm-12">
 								<div class="row">
-									<div class="col-sm-6 align-self-center">
+									<div class="col-sm-6 align-self-center order-2 mt-3">
 										<p class="">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											Veritatis laudantium sint, aspernatur explicabo
@@ -132,12 +115,12 @@
 											qui! Beatae, suscipit!
 										</p>
 									</div>
-									<div class="col-sm-6">
+									<div class="col-sm-6 order-1">
 										<img
-											src="./assets/images/home-image1.jpg"
+											src="./assets/img/home-image1.jpg"
 											alt="foto ilustrativa"
 											class="home-about-img"
-											data-aos="zoom-in-up"
+											data-aos="fade-down-left"
 										/>
 									</div>
 								</div>
@@ -149,15 +132,15 @@
 			<!-- services -->
 			<div id="services">
 				<div class="services-hero">
-					<h2 class="services-title">Services</h2>
+					<h2 data-aos="fade-right" class="services-title">Services</h2>
 				</div>
 				<div class="services-area">
 					<div class="container">
-						<div class="row">
-							<div class="services-card col-sm-6">
+						<div class="row justify-content-center">
+							<div class="services-card col-sm-5">
 								<div class="services-img">
 									<img
-										src="./assets/images/icon_cerveja.png"
+										src="./assets/img/icon_manutecao.png"
 										alt="Icone de serviço"
 									/>
 								</div>
@@ -168,10 +151,10 @@
 									incidunt excepturi aliquam fugiat nihil ad.
 								</p>
 							</div>
-							<div class="services-card col-sm-6">
+							<div class="services-card col-sm-5">
 								<div class="services-img">
 									<img
-										src="./assets/images/icon_lsd.png"
+										src="./assets/img/icon_page.png"
 										alt="Icone de serviços"
 									/>
 								</div>
@@ -182,10 +165,10 @@
 									vero eaque consectetur.
 								</p>
 							</div>
-							<div class="services-card col-sm-6">
+							<div class="services-card col-sm-5">
 								<div class="services-img">
 									<img
-										src="./assets/images/icon_maconha.png"
+										src="./assets/img/icon_sistemas.png"
 										alt="Icone de serviços"
 									/>
 								</div>
@@ -196,10 +179,10 @@
 									eveniet dicta.
 								</p>
 							</div>
-							<div class="services-card col-sm-6">
+							<div class="services-card col-sm-5">
 								<div class="services-img">
 									<img
-										src="./assets/images/icon_cogumelo.png"
+										src="./assets/img/icon_web-store.png"
 										alt="Icone de serviços"
 									/>
 								</div>
@@ -216,7 +199,7 @@
 			</div>
 			<div id="contact">
 				<div class="contact-hero">
-					<h2>Contact</h2>
+					<h2 data-aos="fade-right" class="contact-title">Contact</h2>
 				</div>
 				<div class="contact-area">
 					<div class="container">
@@ -242,7 +225,7 @@
 									placeholder="exemplo@email.com"
 								/>
 								<small id="emailHelp" class="form-text text-muted"
-									>Nunca compartilharemos seu e-mail com ninguém.</small
+									>Seu e-mail não será compartilhado com ninguém.</small
 								>
 							</div>
 							<div class="form-group">
@@ -253,46 +236,40 @@
 									rows="3"
 								></textarea>
 							</div>
-							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="Check1" />
-								<label class="form-check-label" for="Check1"
-									>Receber Newsletter</label
-								>
-							</div>
 							<button type="submit" class="btn btn-primary">Enviar</button>
 						</form>
 						<hr />
-						<h3>Nossas redes</h3>
+						<h3>Minhas redes</h3>
 						<div class="row">
-							<div class="col-sm-4 icon">
+							<div class="col-4 icon">
 								<a href="">
 									<img
-										src="./assets/images/icon_instagram.png"
+										src="./assets/img/icon_github.png"
 										alt="icone rede social"
 										class="icon-img"
 									/>
 								</a>
-								<p>Instagram</p>
+								<p>Github</p>
 							</div>
-							<div class="col-sm-4 icon">
+							<div class="col-4 icon">
 								<a href="">
 									<img
-										src="./assets/images/icon_twitter.png"
+										src="./assets/img/icon_linkedin.png"
+										alt="icone rede social"
+										class="icon-img"
+									/>
+								</a>
+								<p>LinkedIn</p>
+							</div>
+							<div class="col-4 icon">
+								<a href="">
+									<img
+										src="./assets/img/icon_twitter.png"
 										alt="icone rede social"
 										class="icon-img"
 									/>
 								</a>
 								<p>Twitter</p>
-							</div>
-							<div class="col-sm-4 icon">
-								<a href="">
-									<img
-										src="./assets/images/icon_youtube.png"
-										alt="icone rede social"
-										class="icon-img"
-									/>
-								</a>
-								<p>Youtube</p>
 							</div>
 						</div>
 					</div>
@@ -303,7 +280,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-4">
-						<h4 class="footer-title logo">Fuck off!</h4>
+						<h4 class="footer-title logo">Thirteen</h4>
 						<p>
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse,
 							quo deserunt. Alias quasi magnam sapiente veritatis quod.
@@ -314,16 +291,16 @@
 						<!--Google map-->
 
 						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2666.2231343585686!2d12.85968361253509!3d48.06733577111594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4775d4854dbcba19%3A0x802456ee60b72a17!2s5121%20Fucking%2C%20%C3%81ustria!5e0!3m2!1spt-BR!2sbr!4v1683739450853!5m2!1spt-BR!2sbr"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240096.92212872958!2d-43.96405015!3d-19.902716299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1683894912021!5m2!1spt-BR!2sbr"
 							height="200"
 							style="border: 0"
-							allowfullscreen="false"
+							allowfullscreen=""
 							loading="lazy"
 							referrerpolicy="no-referrer-when-downgrade"
 						></iframe>
 
 						<address>
-							<p>Casa do caralho, 69</p>
+							<p>Belo Horizonte/MG</p>
 						</address>
 					</div>
 					<div class="col-sm-4">
@@ -332,31 +309,31 @@
 							<li class="social-list-item">
 								<a href="#" class="social-item-link">
 									<img
-										src="./assets/images/icon_instagram_sm.png"
-										alt="Instagram"
+										src="./assets/img/icon_github_sm.png"
+										alt="Github"
 										class="social-item-img"
 									/>
-									<p>Instagram</p>
+									<p>Github</p>
 								</a>
 							</li>
 							<li class="social-list-item">
 								<a href="#" class="social-item-link">
 									<img
-										src="./assets/images/icon_twitter_sm.png"
+										src="./assets/img/icon_linkedin_sm.png"
+										alt="LinkedIn"
+										class="social-item-img"
+									/>
+									<p>LinkedIn</p>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="#" class="social-item-link">
+									<img
+										src="./assets/img/icon_twitter_sm.png"
 										alt="Twitter"
 										class="social-item-img"
 									/>
 									<p>Twitter</p>
-								</a>
-							</li>
-							<li class="social-list-item">
-								<a href="#" class="social-item-link">
-									<img
-										src="./assets/images/icon_youtube_sm.png"
-										alt="Youtube"
-										class="social-item-img"
-									/>
-									<p>Youtube</p>
 								</a>
 							</li>
 						</ul>
