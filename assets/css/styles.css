@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@100;300;400;700&display=swap');
 
+:root {
+	--animate-duration: 1000ms;
+	/* --animate-delay: 0.9s; */
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -63,31 +68,36 @@ header {
 
 .hero {
 	background-color: #c2cfe1;
-	background-image: url('../images/unsplash.jpg');
+	background-image: url('../img/unsplash.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 500px;
+	/* opacity: 0.9; */
 }
 
 .cover {
-	color: #f1f1f1;
+	color: #242323;
 }
 
 .cover h2 {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 700;
+	color: #f1f1f1;
+	background-color: rgba(36, 35, 35, 0.5);
 }
 
 .cover p {
 	font-size: 1.37em;
-	font-weight: bold;
 	text-align: right;
 	font-weight: 400;
+	color: #f1f1f1;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .home-about {
-	flex-basis: 50%;
+	/* padding: 2rem 0; */
+	/* flex-basis: 50%; */
 }
 
 .home {
@@ -105,7 +115,7 @@ header {
 
 .services-hero,
 .contact-hero {
-	background-image: url('../images/texture_black.jpg');
+	background-image: url('../img/texture_black.jpg');
 	background-attachment: fixed;
 	height: 100px;
 	display: flex;
@@ -123,11 +133,16 @@ header {
 .services-area,
 .contact-area,
 .contact-form {
-	padding-top: 1rem;
+	padding: 2rem 0;
 }
 
 .services-card {
 	text-align: justify;
+	cursor: pointer;
+	margin-bottom: 2rem;
+	padding-top: 1rem;
+	border: 5px solid #800080;
+	width: 90%;
 }
 
 .services-img {
@@ -202,6 +217,11 @@ footer .dev {
 	color: #f1f1f1;
 	background-color: black;
 	padding: 5px 0;
+}
+
+.animate__animated.animate__fadeInLeft {
+	/* --animate-duration: 2s; */
+	/* --animate-delay: 5s; */
 }
 
 /* Small devices (landscape phones, less than 768px) */
