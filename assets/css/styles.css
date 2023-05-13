@@ -103,7 +103,7 @@ nav {
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 576px) {
+@media (max-width: 667px) {
 	.nav-list {
 		position: absolute;
 		top: 8vh;
@@ -304,5 +304,24 @@ footer .dev {
 	to {
 		opacity: 1;
 		transform: translateX(0);
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 667px) {
+	.about-text {
+		order: 1;
+	}
+	.about-img {
+		order: 2;
+	}
+
+	.services-card {
+		width: 100%;
+		margin: 0 1rem 1rem 0;
+	}
+	.services-card:nth-child(even) {
+		margin-left: 1rem;
+		width: 100%;
 	}
 }
