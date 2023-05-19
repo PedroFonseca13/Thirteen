@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Art Club" title="#ArtClub" src="assets/img/banner.png" />
+    <img alt="Thirteen" title="#Thirteen" src="assets/img/GH/banner.png" />
 </h1>
 
 # Thirteen
@@ -12,28 +12,14 @@ Agende seus cortes de cabelo e barba facilmente com nossa aplicação web de bar
 
 ## 🎨 Layout
 
-### Mobile
-
-<p align="center">
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/home-mobile.png" width="100px">
-
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/services-mobile.png" width="100px">
-
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/barber-mobile.png" width="100px">
-
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/footer-mobile.png" width="100px">
-</p>
-
-### Web
-
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/home-web.png" width="400px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/img/GH/screens1.png" width="400px">
 
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/services-web.png" width="400px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/img/GH/screens2.png" width="400px">
 
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/barber-web.png" width="400px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/img/GH/screens3.png" width="400px">
 
-  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/footer-web.png" width="400px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/img/GH/screens4.png" width="400px">
 </p>
 
 ## 🛠 Tecnologias
