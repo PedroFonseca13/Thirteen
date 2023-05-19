@@ -6,10 +6,6 @@
 
 > Thirteen, a solução para seus problemas - https://thirteen-13.netlify.app/
 
-## 💻 Sobre o projeto
-
-Agende seus cortes de cabelo e barba facilmente com nossa aplicação web de barbearia. Selecione um serviço, escolha um horário e confirme a reserva, tudo isso sem sair de casa!
-
 ## 🎨 Layout
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
