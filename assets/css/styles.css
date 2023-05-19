@@ -13,6 +13,12 @@
 
 a {
 	color: #f1f1f1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f1f1f1;
+	text-decoration: none;
 }
 
 h1,
